@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript woooo</title>
+</head>
+<body>
+	<div id="output"></div>
+	<div id="output1"></div>
+
+	<script type="text/javascript">
+		var celsius = parseFloat(prompt('What is the temperature in celsius'))
+		var fahrenheit = celsius * 9 / 5 + 32
+		var kelvin = celsius + 273.15
+		console.log(fahrenheit)
+		console.log(kelvin)
+		document.getElementById('output').innerHTML = fahrenheit
+		document.getElementById('output1').innerHTML = kelvin
+	</script>
+</body>
+</html>

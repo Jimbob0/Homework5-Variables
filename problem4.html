@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript woooo</title>
+</head>
+<body>
+	<div id="output"></div>
+
+	<script type="text/javascript">
+		var a = prompt('Enter first score')
+		var b = prompt('Enter second score')
+		var c = prompt('Enter third score')
+		var d = prompt('Enter fourth score')
+		var e = prompt('Enter fifth score')
+		var score1 = parseFloat(a)
+		var score2 = parseFloat(b)
+		var score3 = parseFloat(c)
+		var score4 = parseFloat(d)
+		var score5 = parseFloat(e)
+		var avg = (score1 + score2 + score3 + score4 +score5) / 5
+		console.log(avg)
+		document.getElementById('output').innerHTML = avg
+	</script>
+</body>
+</html>

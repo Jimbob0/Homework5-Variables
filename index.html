@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript woooo</title>
+</head>
+<body>
+	<div id="output"></div>
+
+	<script type="text/javascript">
+		var feet = parseFloat(prompt('Height in feet, put inches in next prompt'));
+		var inches = parseFloat(prompt('Remaining inches')) + (feet * 12)
+		var weight = parseFloat(prompt('Weight in pounds'));
+		var meters = .0254 * inches
+		var kg = weight / 2.2
+		var bmi = kg / (Math.pow(meters, 2))
+		console.log(feet)
+		console.log(inches)
+		console.log(weight)
+		console.log(meters)
+		console.log(kg)
+		console.log(bmi)
+		document.getElementById('output').innerHTML = bmi
+	</script>
+</body>
+</html>
